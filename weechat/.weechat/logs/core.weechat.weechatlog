@@ -1,0 +1,45 @@
+2016-05-01 09:28:31		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-01 09:28:34		fifo: pipe closed
+2016-05-01 09:30:18		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-01 09:31:38		script: downloading list of scripts...
+2016-05-01 09:31:39		script: 309 scripts for WeeChat 1.4
+2016-05-01 09:31:39		perl: loading script "/home/rasmus/Dotfiles/weechat/.weechat/perl/buffers.pl"
+2016-05-01 09:31:39		perl: registered script "buffers", version 5.2 (Sidebar with list of buffers)
+2016-05-01 09:31:39		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2016-05-01 09:31:39		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2016-05-01 09:31:39		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2016-05-01 09:31:39		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2016-05-01 09:31:39		python: loading script "/home/rasmus/Dotfiles/weechat/.weechat/python/buffer_autoclose.py"
+2016-05-01 09:31:39		python: registered script "buffer_autoclose", version 0.4 (Automatically close inactive private message buffers)
+2016-05-01 09:31:40		perl: loading script "/home/rasmus/Dotfiles/weechat/.weechat/perl/iset.pl"
+2016-05-01 09:31:40		perl: registered script "iset", version 4.1 (Interactive Set for configuration options)
+2016-05-01 09:31:40		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2016-05-01 09:31:40		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2016-05-01 09:31:40		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2016-05-01 09:31:40		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2016-05-01 09:31:40		python: loading script "/home/rasmus/Dotfiles/weechat/.weechat/python/go.py"
+2016-05-01 09:31:40		python: registered script "go", version 2.1 (Quick jump to buffers)
+2016-05-01 09:31:40		python: loading script "/home/rasmus/Dotfiles/weechat/.weechat/python/colorize_nicks.py"
+2016-05-01 09:31:40		python: registered script "colorize_nicks", version 21 (Use the weechat nick colors in the chat area)
+2016-05-01 09:32:05		python: unloading script "buffer_autoclose"
+2016-05-01 09:32:05		python: script removed: /home/rasmus/Dotfiles/weechat/.weechat/python/autoload/buffer_autoclose.py
+2016-05-01 09:32:05		python: script removed: /home/rasmus/Dotfiles/weechat/.weechat/python/buffer_autoclose.py
+2016-05-01 09:32:05		perl: unloading script "buffers"
+2016-05-01 09:32:05		perl: script removed: /home/rasmus/Dotfiles/weechat/.weechat/perl/autoload/buffers.pl
+2016-05-01 09:32:05		perl: script removed: /home/rasmus/Dotfiles/weechat/.weechat/perl/buffers.pl
+2016-05-01 09:32:15		python: unloading script "go"
+2016-05-01 09:32:15		python: script removed: /home/rasmus/Dotfiles/weechat/.weechat/python/autoload/go.py
+2016-05-01 09:32:15		python: script removed: /home/rasmus/Dotfiles/weechat/.weechat/python/go.py
+2016-05-01 09:32:22		python: loading script "/home/rasmus/Dotfiles/weechat/.weechat/python/lastfm.py"
+2016-05-01 09:32:22		python: registered script "lastfm", version 0.7 (Sends your latest Last.fm track to the current buffer)
+2016-05-01 09:32:32		Option changed: weechat.bar.status.color_bg = 0  (default: blue)
+2016-05-01 09:32:32		Option changed: weechat.bar.title.color_bg = 0  (default: blue)
+2016-05-01 09:32:32		Option changed: weechat.color.chat_nick_colors = "1,2,3,4,5,6"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2016-05-01 09:32:32	=!=	Error: option "buffers.color.hotlist_message_fg" not found
+2016-05-01 09:32:32		Option changed: weechat.bar.buffers.position = top  (default: left)
+2016-05-01 09:33:15		Notify changed for "core.weechat": "all" to "message"
+2016-05-01 09:33:15		Option changed: weechat.look.buffer_notify_default = message  (default: all)
+2016-05-01 09:33:15		Option changed: irc.look.smart_filter = on
+2016-05-01 09:33:15		Filter "irc_smart" added:
+2016-05-01 09:33:15		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2016-05-01 09:38:16		irc: server destruktiv added
